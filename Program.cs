@@ -19,7 +19,7 @@ namespace EventsDemo
             add += new DelEventHandler(England);
 
             add.Invoke();
-            Console.WriteLine(" ************* Event Handling *************");
+            Console.WriteLine(" ********** Event Handling *********");
             EventHandling.ImplementEvent();
         }
 
@@ -40,5 +40,4 @@ namespace EventsDemo
         }
     }
 
-    
 }
